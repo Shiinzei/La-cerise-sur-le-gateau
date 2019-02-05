@@ -1,0 +1,52 @@
+<link 	rel="stylesheet" 
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+		crossorigin="anonymous">
+
+body{
+	font-family: arial;
+	background-color: grey;
+	text-align: center;
+	margin: 0;
+}
+
+.navigation-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: grey;
+	height: 10vh;
+	padding: 20px;
+}
+
+.navigation-bar img{
+	width: 40px;
+	height: 40px;
+}
+
+
+.block-right a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+/* End Navigation Bar */
+
+/* Maps */
+.banner h1{
+	background color: grey;
+	padding: 50px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* End Maps */
+
+/* Footer */
+.footer {
+	color: white;
+	background-color: grey;
+	font-size: 50px;
+}
+/* End Footer */

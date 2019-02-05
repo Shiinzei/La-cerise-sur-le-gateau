@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>La cerise sur le gateau | Votre site pour vous faire trouver votre dessert préféré</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="acceuil-site.css">
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="navigation-bar">
+   <a href="acceuil-site.html"><img src="images/logo.png"></a>
+    
+    <div class="block-right">
+      <a href="la-carte.html">La Carte</a>
+      <a href="nos-magasins.html">Nos Magasins</a>
+      <a href="#">
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+    Mon Compte
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                  <form class="form-signin">
+                    <img class="mb-4" src="/docs/4.2/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                    <label for="inputEmail" class="sr-only">Email address</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                      <div class="checkbox mb-3">
+                        <label>
+                          <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                      </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                    <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+              <button type="button" class="btn btn-info">Créer un compte</button>
+            </div>
+          </div>
+        </div>
+      </div></a>
+    </div>
+  </div>
+<!-- End Navifation bar -->
+
+<!-- Banner -->
+<div class="banner">
+   <div class="banner-content">
+     <h1>La cerise sur le gâteau</h1>
+     <p>La gourmandise n'est plus un défaut</p>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Une envie, un dessert" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+   </div>
+</div>
+<!-- End Banner -->
+
+<!-- Propositions de plat -->
+<h2>Nos classiques</h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <div class="card">
+          <div class="card-description">
+            <h3>Pancake Framboise</h3>
+            <p>Avec ce savoureux pancake, plongez directement dans une ambiance canadienne</p>
+          </div>
+          <img src="images/pancake.jpg">
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="card">
+          <div class="card-description">
+            <h3>Tarte au citron</h3>
+            <p>La tarte au citron meringué : un incontournable du goûter</p>
+          </div>
+          <img src="images/tarte-citron.jpg">
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="card">
+          <div class="card-description">
+            <h3>Muffin</h3>
+            <p>Entre chocolat et moelleux, laissez vous tenter par un délicieux muffin</p>
+          </div>
+          <img src="images/muffin-chocolat.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Propositions de plat -->
+
+<!-- Footer -->
+<center>
+ <div class="footer">
+    <ul class="list-inline">
+      <li class="list-inline-item"><i class="fab fa-facebook"></i></li>
+      <li class="list-inline-item"><i class="fab fa-twitter-square"></i></li>
+      <li class="list-inline-item"><i class="fab fa-snapchat-square"></i></li>
+      <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+    </ul>
+  </div>
+</center>
+<!-- End Footer -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
